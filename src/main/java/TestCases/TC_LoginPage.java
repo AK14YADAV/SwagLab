@@ -6,7 +6,7 @@ import Pages.LoginPage;
 
 public class TC_LoginPage extends BaseClass {
 
-	@Test
+	@Test(groups= {"sanity","regression"})
 	public void TC01_LoginSuccessTest() {
 
 		LoginPage lp = new LoginPage();
@@ -14,7 +14,7 @@ public class TC_LoginPage extends BaseClass {
 
 	}
 
-	@Test
+	@Test(groups= {"sanity","regression"})
 	public void TC02_LoginFailureTest() {
 
 		LoginPage lp = new LoginPage();
@@ -22,7 +22,7 @@ public class TC_LoginPage extends BaseClass {
 		lp.ValidateErrorMsg("Epic sadface: Username and password do not match any user in this service");
 	}
 
-	@Test
+	@Test(groups= {"sanity","regression"})
 	public void TC03_LockedUserTest() {
 
 		LoginPage lp = new LoginPage();

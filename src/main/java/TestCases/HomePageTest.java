@@ -7,7 +7,7 @@ import Pages.LoginPage;
 
 public class HomePageTest extends BaseClass {
 
-	@Test
+	@Test(groups= {"sanity","regression"})
 	public void tc01_AddToCartTest() {
 
 		LoginPage lp = new LoginPage();
