@@ -1,0 +1,5 @@
+Pages\LoginPage.class
+TestCases\BaseClass.class
+TestCases\HomePageTest.class
+Pages\HomePage.class
+TestCases\TC_LoginPage.class

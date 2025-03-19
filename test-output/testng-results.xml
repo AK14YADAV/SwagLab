@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-19T14:57:28 IST" name="Default suite" finished-at="2025-03-19T14:57:37 IST" duration-ms="9236">
+    <groups>
+    </groups>
+    <test started-at="2025-03-19T14:57:28 IST" name="Default test" finished-at="2025-03-19T14:57:37 IST" duration-ms="9236">
+      <class name="TestCases.HomePageTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:TestCases.HomePageTest@58cbafc2]" started-at="2025-03-19T14:57:28 IST" name="StartDriver" finished-at="2025-03-19T14:57:34 IST" duration-ms="5780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@58cbafc2]" started-at="2025-03-19T14:57:34 IST" name="tc01_AddToCartTest" finished-at="2025-03-19T14:57:37 IST" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_AddToCartTest -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.HomePageTest@58cbafc2]" started-at="2025-03-19T14:57:37 IST" name="CloseDriver" finished-at="2025-03-19T14:57:37 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- TestCases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
