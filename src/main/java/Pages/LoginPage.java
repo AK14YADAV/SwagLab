@@ -37,10 +37,10 @@ public class LoginPage {
 		Password.sendKeys(password);
 		LoginBtn.click();
 		
+		
 	}
 	
-	public void LoginFailure(String username, String password) {
-		
+	public void LoginFailure(String username, String password) {		
 		UserName.sendKeys(username);
 		Password.sendKeys(password);
 		LoginBtn.click();
@@ -48,7 +48,6 @@ public class LoginPage {
 	}
 	
 	public void ValidateErrorMsg(String ExpMsg) {
-
 		String ActMsg = Error.getText();
 		Assert.assertEquals(ExpMsg, ActMsg);
 	}

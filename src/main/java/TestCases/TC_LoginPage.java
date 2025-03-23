@@ -8,10 +8,8 @@ public class TC_LoginPage extends BaseClass {
 
 	@Test(groups= {"sanity","regression"})
 	public void TC01_LoginSuccessTest() {
-
 		LoginPage lp = new LoginPage();
 		lp.LoginSucess("standard_user	", "secret_sauce");
-
 	}
 
 	@Test(groups= {"sanity","regression"})

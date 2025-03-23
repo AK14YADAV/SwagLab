@@ -6,6 +6,7 @@
       <class name="TestCases.HomePageTest">
         <methods>
           <include name="StartDriver"/>
+          <include name="CloseDriver"/>
           <include name="tc01_AddToCartTest"/>
         </methods>
       </class> <!-- TestCases.HomePageTest -->

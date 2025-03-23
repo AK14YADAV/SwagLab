@@ -14,9 +14,7 @@ public class HomePage {
 	
 	@FindBy(xpath= "//div[@class='product_label']")
 	WebElement productText;
-	
-	@FindBy(xpath ="//button[@class='btn_primary btn_inventory'][1]")
-	WebElement CartBtn;
+
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
@@ -27,12 +25,55 @@ public class HomePage {
 		String ActMsg = productText.getText();
 		Assert.assertEquals(ExpMsg, ActMsg);
 	}
-	public void AddCart() {
 	
-		CartBtn.click();
+	@FindBy(xpath ="//button[@class='btn_primary btn_inventory'][1]")
+	WebElement cartBtn;
+	
+	@FindBy(xpath="//span[@class='fa-layers-counter shopping_cart_badge']")
+	WebElement cartValue;
+	
+	@FindBy(id="shopping_cart_container")
+	WebElement shoppingCart;
+	
+	public void AddCart() {	
+
+		cartBtn.click();
+		String ActValue = cartValue.getText();
+		Assert.assertEquals("1", ActValue);
+		shoppingCart.click();
+	
+	}
+	
+	@FindBy(xpath="//*[text()='Your Cart']")
+	WebElement yourCartTxt;
+	
+	@FindBy(xpath="//a[text()='CHECKOUT']")
+	WebElement checkoutTxt;
+	
+	public void verifyCart() {
+		String actTxt = yourCartTxt.getText();
+		String exptTxt ="Your Cart";
+		Assert.assertEquals(exptTxt,actTxt);
+		checkoutTxt.click();
 		
 	}
 	
+	@FindBy(id="first-name")
+	WebElement firstName;
 	
-
+	@FindBy(id="last-name")
+	WebElement lastName;
+	
+	@FindBy(id="postal-code")
+	WebElement postoalCode;
+	
+	@FindBy(xpath="//input[@value='CONTINUE']")
+	WebElement continueBtn;
+	
+	public void addInformation() {
+		firstName.sendKeys("Ajay");
+		lastName.sendKeys("Kumar");
+		postoalCode.sendKeys("110014");
+		continueBtn.click();
+	}
 }

@@ -2,14 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="SanityTests">
+    <parameter name="browser" value="chrome" /> <!-- Change value to "firefox" if needed -->
   <groups>
 			<run>
 				<include name="sanity" />
 			</run>
 		</groups>
     <classes>
-      <class name="TestCases.HomePageTest"/>
-      <class name="TestCases.TC_LoginPage"/>
+   <class name="TestCases.HomePageTest"/>
+    <class name="TestCases.TC_LoginPage"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

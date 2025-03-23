@@ -9,12 +9,13 @@ public class HomePageTest extends BaseClass {
 
 	@Test(groups= {"sanity","regression"})
 	public void tc01_AddToCartTest() {
-
 		LoginPage lp = new LoginPage();
 		lp.LoginSucess("standard_user	", "secret_sauce");
 		HomePage hp = new HomePage();
 		hp.ValidateErrorMsg("Products");
 		hp.AddCart();
+		hp.verifyCart();
+		hp.addInformation();
 
 	}
 

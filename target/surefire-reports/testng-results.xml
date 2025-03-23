@@ -2,74 +2,102 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-19T15:48:35 IST" name="TestSuite" finished-at="2025-03-19T15:48:54 IST" duration-ms="18532">
+  <suite started-at="2025-03-23T17:40:03 IST" name="Suite" finished-at="2025-03-23T17:40:22 IST" duration-ms="19469">
     <groups>
       <group name="regression">
-        <method signature="HomePageTest.tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@9f116cc]" name="tc01_AddToCartTest" class="TestCases.HomePageTest"/>
-        <method signature="TC_LoginPage.TC01_LoginSuccessTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" name="TC01_LoginSuccessTest" class="TestCases.TC_LoginPage"/>
-        <method signature="TC_LoginPage.TC02_LoginFailureTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" name="TC02_LoginFailureTest" class="TestCases.TC_LoginPage"/>
-        <method signature="TC_LoginPage.TC03_LockedUserTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" name="TC03_LockedUserTest" class="TestCases.TC_LoginPage"/>
+        <method signature="HomePageTest.tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@6572421]" name="tc01_AddToCartTest" class="TestCases.HomePageTest"/>
+        <method signature="TC_LoginPage.TC01_LoginSuccessTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" name="TC01_LoginSuccessTest" class="TestCases.TC_LoginPage"/>
+        <method signature="TC_LoginPage.TC02_LoginFailureTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" name="TC02_LoginFailureTest" class="TestCases.TC_LoginPage"/>
+        <method signature="TC_LoginPage.TC03_LockedUserTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" name="TC03_LockedUserTest" class="TestCases.TC_LoginPage"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="HomePageTest.tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@9f116cc]" name="tc01_AddToCartTest" class="TestCases.HomePageTest"/>
-        <method signature="TC_LoginPage.TC01_LoginSuccessTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" name="TC01_LoginSuccessTest" class="TestCases.TC_LoginPage"/>
-        <method signature="TC_LoginPage.TC02_LoginFailureTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" name="TC02_LoginFailureTest" class="TestCases.TC_LoginPage"/>
-        <method signature="TC_LoginPage.TC03_LockedUserTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" name="TC03_LockedUserTest" class="TestCases.TC_LoginPage"/>
+        <method signature="HomePageTest.tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@6572421]" name="tc01_AddToCartTest" class="TestCases.HomePageTest"/>
+        <method signature="TC_LoginPage.TC01_LoginSuccessTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" name="TC01_LoginSuccessTest" class="TestCases.TC_LoginPage"/>
+        <method signature="TC_LoginPage.TC02_LoginFailureTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" name="TC02_LoginFailureTest" class="TestCases.TC_LoginPage"/>
+        <method signature="TC_LoginPage.TC03_LockedUserTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" name="TC03_LockedUserTest" class="TestCases.TC_LoginPage"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-19T15:48:35 IST" name="SanityTests" finished-at="2025-03-19T15:48:54 IST" duration-ms="18532">
+    <test started-at="2025-03-23T17:40:03 IST" name="SanityTests" finished-at="2025-03-23T17:40:22 IST" duration-ms="19469">
       <class name="TestCases.HomePageTest">
-        <test-method is-config="true" signature="StartDriver()[pri:0, instance:TestCases.HomePageTest@9f116cc]" started-at="2025-03-19T15:48:35 IST" name="StartDriver" finished-at="2025-03-19T15:48:39 IST" duration-ms="3642" status="PASS">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:TestCases.HomePageTest@6572421]" started-at="2025-03-23T17:40:03 IST" name="StartDriver" finished-at="2025-03-23T17:40:07 IST" duration-ms="4510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method signature="tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@9f116cc]" started-at="2025-03-19T15:48:39 IST" name="tc01_AddToCartTest" finished-at="2025-03-19T15:48:41 IST" duration-ms="2515" status="PASS">
+        <test-method signature="tc01_AddToCartTest()[pri:0, instance:TestCases.HomePageTest@6572421]" started-at="2025-03-23T17:40:07 IST" name="tc01_AddToCartTest" finished-at="2025-03-23T17:40:10 IST" duration-ms="3114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_AddToCartTest -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.HomePageTest@9f116cc]" started-at="2025-03-19T15:48:41 IST" name="CloseDriver" finished-at="2025-03-19T15:48:41 IST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.HomePageTest@6572421]" started-at="2025-03-23T17:40:10 IST" name="CloseDriver" finished-at="2025-03-23T17:40:11 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
       </class> <!-- TestCases.HomePageTest -->
       <class name="TestCases.TC_LoginPage">
-        <test-method is-config="true" signature="StartDriver()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:41 IST" name="StartDriver" finished-at="2025-03-19T15:48:45 IST" duration-ms="3153" status="PASS">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:11 IST" name="StartDriver" finished-at="2025-03-23T17:40:13 IST" duration-ms="2538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method signature="TC01_LoginSuccessTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:45 IST" name="TC01_LoginSuccessTest" finished-at="2025-03-19T15:48:47 IST" duration-ms="2062" status="PASS">
+        <test-method signature="TC01_LoginSuccessTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:13 IST" name="TC01_LoginSuccessTest" finished-at="2025-03-23T17:40:15 IST" duration-ms="2220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_LoginSuccessTest -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:47 IST" name="CloseDriver" finished-at="2025-03-19T15:48:47 IST" duration-ms="733" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:15 IST" name="CloseDriver" finished-at="2025-03-23T17:40:16 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
-        <test-method is-config="true" signature="StartDriver()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:47 IST" name="StartDriver" finished-at="2025-03-19T15:48:50 IST" duration-ms="2719" status="PASS">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:16 IST" name="StartDriver" finished-at="2025-03-23T17:40:18 IST" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method signature="TC02_LoginFailureTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:50 IST" name="TC02_LoginFailureTest" finished-at="2025-03-19T15:48:50 IST" duration-ms="416" status="PASS">
+        <test-method signature="TC02_LoginFailureTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:18 IST" name="TC02_LoginFailureTest" finished-at="2025-03-23T17:40:19 IST" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_LoginFailureTest -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:50 IST" name="CloseDriver" finished-at="2025-03-19T15:48:51 IST" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:19 IST" name="CloseDriver" finished-at="2025-03-23T17:40:19 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
-        <test-method is-config="true" signature="StartDriver()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:51 IST" name="StartDriver" finished-at="2025-03-19T15:48:53 IST" duration-ms="2533" status="PASS">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:19 IST" name="StartDriver" finished-at="2025-03-23T17:40:21 IST" duration-ms="2472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method signature="TC03_LockedUserTest()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:53 IST" name="TC03_LockedUserTest" finished-at="2025-03-19T15:48:54 IST" duration-ms="440" status="PASS">
+        <test-method signature="TC03_LockedUserTest()[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:21 IST" name="TC03_LockedUserTest" finished-at="2025-03-23T17:40:22 IST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_LockedUserTest -->
-        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.TC_LoginPage@5c33f1a9]" started-at="2025-03-19T15:48:54 IST" name="CloseDriver" finished-at="2025-03-19T15:48:54 IST" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:TestCases.TC_LoginPage@49139829]" started-at="2025-03-23T17:40:22 IST" name="CloseDriver" finished-at="2025-03-23T17:40:22 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseDriver -->
       </class> <!-- TestCases.TC_LoginPage -->
     </test> <!-- SanityTests -->
-  </suite> <!-- TestSuite -->
+  </suite> <!-- Suite -->
 </testng-results>
